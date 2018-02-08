@@ -19,13 +19,13 @@ This action will go through your _playbooks_ folder searching a file called _tes
 
 With this data, our first step will be execute the base role to deploy the kubernetes modules inside of the container. After this step comes the post_tasks section with the actions related with our tests.
 
-My point of view here is, load the variables related with a concrete plan that must be tested and the execute a task file called "test_tasks" because the only that changes between executions is just the variables, then we will contain the same tasks for both plans.
+My point of view here is, load the variables related with a concrete plan that must be tested and then execute a task file called "test_tasks" because the only that changes between executions is just the variables, then we will contain the same tasks for both plans.
 
 This have a extra time to be tested, but I think that worth it. 
 
 ## How to add more tests
 
-When you need to create a new plan or maybe an addon, just create the variables that make sense on the plan variables file and the add it on the *test_tasks.yml* and try it ;).
+When you need to create a new plan or maybe an addon, just create the variables that make sense on the plan variables file and then add it on the *test_tasks.yml* and try it ;).
 
 
 ## What more
