@@ -1,5 +1,7 @@
 # Prometheus APB
 
+## DEPRECATED REPO working on https://github.com/ansibleplaybookbundle/prometheus-apb
+
 ![img](docs/img/prometheus-logo.png)
 
 ## Description
